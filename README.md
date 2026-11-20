@@ -57,6 +57,3 @@ python3 investigate.py
 
 Every rebuild checks source integrity, lifecycle coverage, invoice coverage in both directions, retry integrity, cohort denominators, retention bounds and the MRR bridge. The hand-calculated case includes an expansion, a downgrade, a cancellation, an inactive month and a win-back. It verifies that a recovered invoice counts once and first-churn exposure stops at the original exit.
 
-## Interview walkthrough
-
-Start with October's positive growth and sub-100% NRR. Trace one customer from a sparse contract event into a monthly movement. Explain why dropping inactive months breaks reactivation logic and why joining raw payment attempts to invoices inflates billed revenue. Finish by comparing month-six retention across channels and naming the experiment you would run before acting on the result.
